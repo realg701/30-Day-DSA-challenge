@@ -1,0 +1,11 @@
+{
+  "name": "30-day-dsa-challenge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/realg701/30-Day-DSA-challenge.git",
+  "author": "Abdul Haseeb <125727302+realg701@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
+}
