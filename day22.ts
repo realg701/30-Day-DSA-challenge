@@ -54,4 +54,5 @@ const calculatePower = (base: number, exponent: number): number | string => {
 
 console.log(calculatePower(2, 3)); // output: 8
 console.log(calculatePower(2, 0)); // output: 1
-console.log(calculatePower(2, -1)); // output: 1
+console.log(calculatePower(2, -1));
+// output: "Please insert positive integer"
