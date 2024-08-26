@@ -840,4 +840,211 @@ function reverseNumber(num: number): number {
 
 ---
 
-Day
+# Day 21: Task
+
+*Question 41: Sum of DigitsZ*
+*Problem:*  
+Write a function sumOfDigits that takes a number as input and returns the sum of its digits.
+
+*Example:*  
+typescript
+sumOfDigits(123); // Output: 6 (1 + 2 + 3)
+sumOfDigits(4567); // Output: 22 (4 + 5 + 6 + 7)
+
+
+*Hint:*  
+You can convert the number to a string, split it into individual digits, and then sum them up.
+
+---
+
+*Question 42: Count Consonants in a String*
+*Problem:*  
+Write a function countConsonants that takes a string as input and returns the number of consonants in the string. Consonants are all alphabetical characters except a, e, i, o, u (both lowercase and uppercase).
+
+*Example:*  
+typescript
+countConsonants("hello"); // Output: 3
+countConsonants("TypeScript"); // Output: 7
+
+
+*Hint:*  
+Loop through the string and check each character to see if it is a consonant by excluding vowels.
+
+---
+
+# Day 22: Task
+
+*Question 43: Count Digits in a Number*
+Given a number, your task is to count and return the number of digits in that number.
+
+*Example:*
+typescript
+function countDigits(num: number): number {
+    // Write your logic here
+}
+
+// Example usage
+console.log(countDigits(12345)); // Output: 5
+console.log(countDigits(987));   // Output: 3
+
+
+*Question 44: Calculate the Power of a Number*
+Given a base number b and an exponent e, your task is to calculate b raised to the power of e without using built-in methods like Math.pow.
+
+*Example:*
+typescript
+function calculatePower(b: number, e: number): number {
+    // Write your logic here
+}
+
+// Example usage
+console.log(calculatePower(2, 3)); // Output: 8
+console.log(calculatePower(5, 0)); // Output: 1
+
+---
+
+# Day 23: Task
+
+*Question 45: Calculate the Factorial of a Number*
+Task: Write a function calculateFactorial that takes a number as input and returns its factorial.
+
+Hint: Factorial means multiplying a number by all positive integers less than it. For example, the factorial of 5 is 5 * 4 * 3 * 2 * 1 = 120.
+
+*Question 46: Convert a Number to Binary (Without Using Built-in Functions)*
+Task: Write a function convertToBinary that takes a number as input and converts it into its binary form.
+
+Hint: Repeatedly divide the number by 2 and note down the remainder. Join the remainders in reverse order to get the binary representation.
+
+---
+
+# Day 24: Task
+
+
+*Question 47: Generate Fibonacci Sequence*
+Write a function generateFibonacci(n: number): number[] that generates and returns the first n numbers of the Fibonacci sequence. The Fibonacci sequence starts with 0 and 1, and each subsequent number is the sum of the previous two.
+
+*Hint:* Use a loop or recursion to build the sequence.
+
+*Example:*
+typescript
+generateFibonacci(5); // Output: [0, 1, 1, 2, 3]
+generateFibonacci(7); // Output: [0, 1, 1, 2, 3, 5, 8]
+
+
+
+*Question 48: Replace Vowels with Asterisks*
+Write a function replaceVowels(str: string): string that takes a string str and returns a new string where all vowels (a, e, i, o, u) are replaced with asterisks (*). The function should be case-insensitive.
+
+*Hint:* You can use a loop or a regular expression to find and replace vowels.
+
+*Example:*
+typescript
+replaceVowels('Hello World'); // Output: 'H*ll* W*rld'
+replaceVowels('TypeScript');  // Output: 'Typ*Scr*pt'
+
+---
+
+# Day 25: Task
+
+*Question 49: Calculate the Difference Between the Sum of Odd and Even Digits*
+*Problem:* You are given a positive integer. You need to calculate the sum of the odd digits and the sum of the even digits, then find the difference between these two sums. The difference should be positive.
+
+*Example:*
+- Input: number = 1234
+- Output: 2 (Odd sum: 1 + 3 = 4, Even sum: 2 + 4 = 6, Difference: |4 - 6| = 2)
+
+*Hint:* Convert the number to a string, then check each digit to see if it’s odd or even, and calculate the respective sums.
+
+---
+
+*Question 50: Find the Smallest Divisor of a Number (Greater than 1)*
+*Problem:* You are given a positive integer. Your task is to find the smallest divisor of this number that is greater than 1.
+
+*Example:*
+- Input: number = 15
+- Output: 3 (because 3 is the smallest divisor of 15 that is greater than 1)
+
+*Hint:* Use a loop to check which number divides the integer without leaving a remainder, starting from 2 upwards.
+
+
+# Day 26: Task
+
+*Question 51: Reverse a Number*
+
+Write a function reverseNumber(n: number): number that takes a positive integer n and returns the number with its digits reversed.
+
+Example:
+typescript
+reverseNumber(1234); // Output: 4321
+reverseNumber(567);  // Output: 765
+
+
+*Question 52: Find the Average of Numbers in a String*
+
+Write a function averageOfNumbersInString(str: string): number that extracts all numbers from a given string, calculates their average, and returns the result.
+
+Example:
+typescript
+averageOfNumbersInString('The numbers are 12, 15, and 20.'); // Output: 15.666...
+averageOfNumbersInString('No numbers here!'); // Output: NaN
+
+---
+
+# Day 27: Task
+
+*Question 53: Count the Number of Divisors*
+*Description:*
+Write a TypeScript function that takes a positive integer as input and returns the number of its divisors (factors). A divisor is a number that divides the input number without leaving a remainder.
+
+*Example:*
+typescript
+Input: 12
+Output: 6  // (1, 2, 3, 4, 6, 12)
+
+Input: 7
+Output: 2  // (1, 7)
+
+
+*Hint:* Use a loop to check each number from 1 to the given number to see if it divides the number evenly.
+
+---
+
+*Question 54: Check if a Number is a Perfect Square*
+*Description:*
+Write a TypeScript function that takes a positive integer as input and returns true if the number is a perfect square, otherwise return false. A perfect square is a number that is the square of an integer.
+
+*Example:*
+typescript
+Input: 16
+Output: true  // (4 * 4 = 16)
+
+Input: 20
+Output: false
+
+
+*Hint:* Use the square root function Math.sqrt() and check if the result is an integer.
+
+---
+
+# Day 28: Task
+
+*Question 55: Armstrong Number Checker (Without Using split)*
+*Problem:* Check if a given number is an Armstrong number. An Armstrong number is a number that is equal to the sum of its own digits each raised to the power of the number of digits.
+
+*JHint:*
+1. First, count the number of digits in the given number.
+2. Then, iterate through each digit by extracting it one by one.
+3. Raise each digit to the power of the total number of digits and accumulate the result.
+4. Finally, compare the accumulated sum to the original number to determine if it is an Armstrong number.
+
+
+*Question 56: Find the LCM (Least Common Multiple)*
+*Problem:* Find the Least Common Multiple (LCM) of two numbers. LCM is the smallest number that is a multiple of both given numbers.
+
+*Hint:*
+1. Calculate the Greatest Common Divisor (GCD) of the two numbers using the Euclidean algorithm.
+2. Use the GCD to find the LCM with the formula:
+   \[
+   \text{LCM}(a, b) = \frac{|a \times b|}{\text{GCD}(a, b)}
+   \]
+
